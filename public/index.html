@@ -14,6 +14,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -25,8 +26,52 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
      <title>DCS</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
   </head>
   <body>
+
+    <div class="main">
+      <a href="https://github.com/DystopianCatsSociety" class="nav-item">
+        <div class="nav-links">
+          <i class='fab fa-github-alt' style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </div>
+        <span class="nav-link-text">Github</span>
+      </a>
+      <a href="https://twitter.com/DystopianCatsS" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fab fa-twitter" style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </div>
+        <span class="nav-link-text">Twitter</span>
+      </a>
+      <a href="https://instagram.com/dystopiancatssociety" class="nav-item">
+        <div class="nav-links">
+          <i class="fab fa-instagram" style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </div>
+        <span class="nav-link-text">Instagram</span>
+      </a>
+      <a href="https://opensea.io/collection/dystopiancatssociety" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fab fa-gratipay" style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </div>
+        <span class="nav-link-text">Opensea</span>
+      </a>
+      <a href="https://discord.gg/ZuTcXQygzN" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fab fa-discord" style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </div>
+        <span class="nav-link-text">Discord</span>
+      </a>
+      <a href="https://www.linkedin.com/in/mauricio-erramuspe-2321211a9/" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fab fa-linkedin-in" style='font-size:40px;color:rgb(5, 5, 5)'></i>
+        </div>
+        <span class="nav-link-text">LinkedIn</span>
+      </a>
+
+
+
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,43 +84,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-<div class="main">
-  <a href="https://github.com/DystopianCatsSociety" class="nav-item">
-    <div class="nav-links">
-      <i class='fab fa-github-alt' style='font-size:40px;color:rgb(0, 0, 0)'></i>
-    </div>
-    <span class="nav-link-text">Github</span>
-  </a>
-  <a href="https://twitter.com/DystopianCatsS" class="nav-item">
-    <div class="nav-links transition-all">
-      <i class="fab fa-twitter" style='font-size:40px;color:rgb(0, 0, 0)'></i>
-    </div>
-    <span class="nav-link-text">Twitter</span>
-  </a>
-  <a href="https://instagram.com/dystopiancatssociety" class="nav-item">
-    <div class="nav-links">
-      <i class="fab fa-instagram" style='font-size:40px;color:rgb(0, 0, 0)'></i>
-    </div>
-    <span class="nav-link-text">Instagram</span>
-  </a>
-  <a href="https://opensea.io/collection/dystopiancatssociety" class="nav-item">
-    <div class="nav-links transition-all">
-      <i class="fab fa-gratipay" style='font-size:40px;color:rgb(0, 0, 0)'></i>
-    </div>
-    <span class="nav-link-text">Opensea</span>
-  </a>
-  <a href="https://discord.gg/ZuTcXQygzN" class="nav-item">
-    <div class="nav-links transition-all">
-      <i class="fab fa-discord" style='font-size:40px;color:rgb(0, 0, 0)'></i>
-    </div>
-    <span class="nav-link-text">Discord</span>
-  </a>
-  <a href="https://www.linkedin.com/in/mauricio-erramuspe-2321211a9/" class="nav-item">
-    <div class="nav-links transition-all">
-      <i class="fab fa-linkedin-in" style='font-size:40px;color:rgb(5, 5, 5)'></i>
-    </div>
-    <span class="nav-link-text">LinkedIn</span>
-  </a>
+
   
 </div>
 
@@ -820,7 +829,6 @@ function horizontalLoop(items, config) {
 <div>
 
 </div>
-
 
 
   </body>
